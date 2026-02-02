@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+html,
+html * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	top: 0px;
+	padding: 1.5em;
+	position: absolute;
+}
+.cool{
+	background-color: black;
+	color:black;
+	z-index: 1;
+	height: 81px;
+}
+.tab{
+	background-color: #D68FD6;
+	z-index: 2;
+	float: left;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	padding: 10px;
+	font-family: trebuchet MS;
+}
+.unused-tab{
+	list-style-type: none;
+	display: inline-block;
+	background-color: rgba(254,151,238,1.00);
+	z-index: 2;
+	float: left;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	padding: 10px;
+	text-align: right;
+}
+a {
+	font-family: trebuchet MS;
+	text-decoration: none;
+	color: black;
+}
+body{
+	background-color: #D68FD6;
+}
+
+div{
+	padding-top: 60px;
+}
+h1{
+	font-family: trebuchet MS;
+	padding: 20px;
+}
+iframe{
+	Border-radius: 25px;
+	padding: 1em;
+}
+.other{
+	float: right;
+}
+p{
+	padding: 1em;
+	font-family: trebuchet MS;
+}
+.thing{
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
+.thing2{
+	text-align: right;
+	font-family: trebuchet MS;
+
+}
