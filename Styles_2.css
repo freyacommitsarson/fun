@@ -57,6 +57,8 @@ h1{
 iframe{
 	Border-radius: 25px;
 	padding: 1em;
+  width: 50%;
+  aspect-ratio: 16 / 9;
 }
 .other{
 	float: right;
@@ -74,4 +76,7 @@ p{
 	text-align: right;
 	font-family: trebuchet MS;
 
+}
+.thing3{
+  float: left
 }
